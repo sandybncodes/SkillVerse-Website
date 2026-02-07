@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – SkillVerse Community</title>
+  <meta name="description" content="Get in touch with SkillVerse Community. Contact info and enquiry form.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-skillverse sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">SkillVerse Community</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto align-items-center gap-2">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          <li class="nav-item">
+            <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">
+              <i class="bi bi-moon-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <h1 class="section-title mb-2">Contact Us</h1>
+        <p class="text-muted-custom">Get in touch for course enquiries or general questions.</p>
+      </div>
+    </div>
+
+    <section class="py-4 pb-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="card card-skillverse h-100">
+              <div class="card-body p-4">
+                <h2 class="h5 section-title mb-3">Contact information</h2>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="bi bi-envelope me-2 mt-1" style="color: var(--color-accent);"></i>
+                    <a href="mailto:info@skillverse-community.com">info@skillverse-community.com</a>
+                  </li>
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="bi bi-globe me-2 mt-1" style="color: var(--color-accent);"></i>
+                    <span>www.skillverse-community.com</span>
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="bi bi-chat-dots me-2 mt-1" style="color: var(--color-accent);"></i>
+                    <span>Reach out via the form for a quick response.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="card card-skillverse">
+              <div class="card-body p-4 p-lg-5">
+                <h2 class="h5 section-title mb-3">Send a message</h2>
+                <form id="contact-form" novalidate>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="firstName" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="firstName" name="firstName" required placeholder="Your first name">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="lastName" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="lastName" name="lastName" required placeholder="Your last name">
+                    </div>
+                    <div class="col-12">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="col-12">
+                      <label for="phone" class="form-label">Phone</label>
+                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="+1 234 567 890">
+                    </div>
+                    <div class="col-12">
+                      <label for="message" class="form-label">Comment or message</label>
+                      <textarea class="form-control" id="message" name="message" rows="4" required placeholder="Your message..."></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-skillverse">Send message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-skillverse">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <strong>SkillVerse Community</strong><br>
+          <span class="small">We don't guarantee the job, we guarantee real experience.</span>
+        </div>
+        <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+          <a href="contact.html" class="me-3">Contact</a>
+          <a href="about.html" class="me-3">About</a>
+          <a href="courses.html">Courses</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

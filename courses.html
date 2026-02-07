@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses – SkillVerse Community</title>
+  <meta name="description" content="Browse SkillVerse Community courses: Manual QA, Automation QA, SQL & Databases. Theory, practice, and AI-powered learning.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-skillverse sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">SkillVerse Community</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto align-items-center gap-2">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="courses.html">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item">
+            <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">
+              <i class="bi bi-moon-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <h1 class="section-title mb-2">Our Courses</h1>
+        <p class="text-muted-custom">Theory, real practice, and AI as your everyday tool. Start with one of our programs below.</p>
+      </div>
+    </div>
+
+    <section class="py-4 pb-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <a href="course-detail.html?id=manual-qa" class="course-card">
+              <div class="card card-skillverse h-100">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <div class="course-icon course-icon--manual" aria-hidden="true">
+                      <i class="bi bi-clipboard2-check-fill"></i>
+                    </div>
+                    <span class="badge badge-duration">8 weeks</span>
+                  </div>
+                  <h3 class="card-title h5 mb-2">Manual QA Engineering</h3>
+                  <p class="card-text text-muted-custom small mb-3">Learn testing fundamentals, test design, bug reporting, and how to use AI to speed up manual testing and documentation.</p>
+                  <p class="mb-0 fw-semibold" style="color: var(--color-accent);">€299</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="course-detail.html?id=automation-qa" class="course-card">
+              <div class="card card-skillverse h-100">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <div class="course-icon course-icon--automation" aria-hidden="true">
+                      <i class="bi bi-robot"></i>
+                    </div>
+                    <span class="badge badge-duration">12 weeks</span>
+                  </div>
+                  <h3 class="card-title h5 mb-2">Automation QA Engineering</h3>
+                  <p class="card-text text-muted-custom small mb-3">Build automated test frameworks, write maintainable scripts, and integrate AI into your automation and debugging workflow.</p>
+                  <p class="mb-0 fw-semibold" style="color: var(--color-accent);">€449</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="course-detail.html?id=sql-databases" class="course-card">
+              <div class="card card-skillverse h-100">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <div class="course-icon course-icon--sql" aria-hidden="true">
+                      <i class="bi bi-database-fill-gear"></i>
+                    </div>
+                    <span class="badge badge-duration">6 weeks</span>
+                  </div>
+                  <h3 class="card-title h5 mb-2">SQL & Databases for Beginners</h3>
+                  <p class="card-text text-muted-custom small mb-3">From basics to writing queries and understanding data models. Use AI to write and optimize SQL and explore databases.</p>
+                  <p class="mb-0 fw-semibold" style="color: var(--color-accent);">€199</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-skillverse">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <strong>SkillVerse Community</strong><br>
+          <span class="small">We don't guarantee the job, we guarantee real experience.</span>
+        </div>
+        <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+          <a href="contact.html" class="me-3">Contact</a>
+          <a href="about.html" class="me-3">About</a>
+          <a href="courses.html">Courses</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
