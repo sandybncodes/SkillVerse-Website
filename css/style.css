@@ -320,6 +320,14 @@ b {
   background: linear-gradient(135deg, #ea580c 0%, #f97316 100%);
 }
 
+.course-icon--web {
+  background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+}
+
+.course-icon--pm {
+  background: linear-gradient(135deg, #fb7185 0%, #f472b6 50%, #f59e0b 100%);
+}
+
 .badge-duration {
   background: rgba(var(--color-accent-rgb), 0.15);
   color: var(--color-accent);
