@@ -47,6 +47,34 @@ export const courses = {
       'Practical exercises on real-world style datasets.',
     ],
   },
+  "web-development": {
+          name: "Web Development for Beginners",
+          period: "10 weeks",
+          price: "€349",
+          shortDesc: "Learn HTML, CSS, JavaScript and modern workflows to build responsive web apps and portfolios.",
+          details: [
+            "Foundations: HTML structure, semantic tags and accessibility.",
+            "Styling with CSS: layouts, responsive design and Flexbox/Grid.",
+            "JavaScript fundamentals: DOM, events, and asynchronous code.",
+            "Modern tooling: package managers, bundlers, and version control.",
+            "Building a small project and deploying a portfolio site.",
+            "Using AI for productivity: code snippets, explanations, and debugging help."
+          ]
+        },
+        "project-management": {
+          name: "Project Management",
+          period: "8 weeks",
+          price: "€329",
+          shortDesc: "Fundamentals of project management, agile practices, stakeholder communication and delivery.",
+          details: [
+            "Project lifecycle and planning: scope, timeline and budgeting.",
+            "Agile frameworks: Scrum basics, roles, and ceremonies.",
+            "Communication and stakeholder management.",
+            "Risk management and quality assurance basics.",
+            "Tools and documentation: roadmaps, backlogs, and reporting.",
+            "Practical exercises with case studies and real scenarios."
+          ]
+        }
 }
 
 export const courseList = Object.values(courses)
